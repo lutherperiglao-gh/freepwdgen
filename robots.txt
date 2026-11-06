@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coruscating-creponne-0d2283.netlify.app/sitemap.xml
