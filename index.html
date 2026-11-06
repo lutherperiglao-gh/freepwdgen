@@ -177,12 +177,24 @@
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"WebApplication",
-  "name":"FreePwdGen",
-  "url":"https://coruscating-creponne-0d2283.netlify.app/",
-  "description":"A free browser-based password generator that creates strong passwords without sending them to a server.",
-  "applicationCategory":"SecurityApplication",
-  "operatingSystem":"Web"
+  "@graph":[
+    {
+      "@type":"WebApplication",
+      "@id":"https://coruscating-creponne-0d2283.netlify.app/#app",
+      "name":"FreePwdGen",
+      "url":"https://coruscating-creponne-0d2283.netlify.app/",
+      "description":"A free browser-based password generator that creates strong passwords without sending them to a server.",
+      "applicationCategory":"SecurityApplication",
+      "operatingSystem":"Web"
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://coruscating-creponne-0d2283.netlify.app/#website",
+      "name":"FreePwdGen",
+      "url":"https://coruscating-creponne-0d2283.netlify.app/",
+      "description":"Generate strong passwords for free in your browser with no account and no server storage."
+    }
+  ]
 }
 </script>
 </head>
